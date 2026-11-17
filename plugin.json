@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "alexein-ai",
+  "version": "1.0.0",
+  "description": "Alexein AI: persistent personal memory for Copilot. Searches what you've told it before and saves new facts. Signs in with your Alexein account.",
+  "author": {
+    "name": "Alexein AI",
+    "email": "zainali@alexein.ai",
+    "url": "https://alexein.ai"
+  },
+  "homepage": "https://docs.alexein.ai",
+  "repository": "https://github.com/Alexein-AI/copilot-plugin",
+  "license": "MIT",
+  "keywords": ["memory", "mcp", "personal-memory", "alexein-ai"]
+}

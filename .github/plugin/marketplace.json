@@ -1,0 +1,19 @@
+{
+  "name": "alexein-ai",
+  "owner": {
+    "name": "Alexein AI",
+    "email": "zainali@alexein.ai"
+  },
+  "metadata": {
+    "description": "Alexein AI plugins for GitHub Copilot",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "alexein-ai",
+      "description": "Persistent personal memory for Copilot.",
+      "version": "1.0.0",
+      "source": "./"
+    }
+  ]
+}
