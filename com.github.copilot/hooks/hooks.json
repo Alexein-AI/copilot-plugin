@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "hooks": {
+    "SessionStart": [
+      { "type": "command", "bash": "python3 \"${PLUGIN_ROOT}/scripts/alexein_hooks.py\" run copilot session-start", "timeoutSec": 10 }
+    ],
+    "UserPromptSubmit": [
+      { "type": "command", "bash": "python3 \"${PLUGIN_ROOT}/scripts/alexein_hooks.py\" run copilot prompt", "timeoutSec": 10 }
+    ],
+    "PostToolUse": [
+      { "type": "command", "bash": "python3 \"${PLUGIN_ROOT}/scripts/alexein_hooks.py\" run copilot tool", "timeoutSec": 5 }
+    ],
+    "PostToolUseFailure": [
+      { "type": "command", "bash": "python3 \"${PLUGIN_ROOT}/scripts/alexein_hooks.py\" run copilot tool-failed", "timeoutSec": 5 }
+    ],
+    "Stop": [
+      { "type": "command", "bash": "python3 \"${PLUGIN_ROOT}/scripts/alexein_hooks.py\" run copilot stop", "timeoutSec": 10 }
+    ],
+    "PreCompact": [
+      { "type": "command", "bash": "python3 \"${PLUGIN_ROOT}/scripts/alexein_hooks.py\" run copilot flush", "timeoutSec": 10 }
+    ],
+    "SessionEnd": [
+      { "type": "command", "bash": "python3 \"${PLUGIN_ROOT}/scripts/alexein_hooks.py\" run copilot flush", "timeoutSec": 5 }
+    ]
+  }
+}
