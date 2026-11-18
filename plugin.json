@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "alexein-ai",
   "version": "1.0.0",
-  "description": "Alexein AI: persistent personal memory for Copilot. Searches what you've told it before and saves new facts. Signs in with your Alexein account.",
+  "description": "Alexein AI: your personal memory, shared across Copilot, Claude, ChatGPT, Cursor and your other AI tools. Copilot searches what you've told any of them and saves new facts. Signs in with your Alexein account.",
   "author": {
     "name": "Alexein AI",
     "email": "zainali@alexein.ai",

@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "alexein-ai",
-      "description": "Persistent personal memory for Copilot.",
+      "description": "Your personal memory, shared across Copilot and your other AI tools.",
       "version": "1.0.0",
       "source": "./"
     }
