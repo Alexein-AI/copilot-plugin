@@ -20,8 +20,13 @@ and past decisions, not only this chat.
 
 ### GitHub Copilot CLI
 
+Run these one at a time:
+
 ```
 copilot plugin marketplace add Alexein-AI/copilot-plugin
+```
+
+```
 copilot plugin install alexein-ai@alexein-ai
 ```
 
