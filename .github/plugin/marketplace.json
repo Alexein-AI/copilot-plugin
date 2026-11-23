@@ -6,13 +6,13 @@
   },
   "metadata": {
     "description": "Alexein AI plugins for GitHub Copilot",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "plugins": [
     {
       "name": "alexein-ai",
       "description": "Your personal memory, shared across Copilot and your other AI tools.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./"
     }
   ]
