@@ -62,7 +62,7 @@ They need the plugin signed in to your Alexein account. The first time a session
 browser opens Alexein's sign-in, where you choose **Allow**; nothing is copied or pasted. If you close it, it
 opens again at most once a day (once a week after **Cancel**), and
 `python3 <plugin>/scripts/alexein_hooks.py run copilot sign-in` opens it whenever you like. The key it makes is a
-personal key labelled **Copilot · your computer's name**, listed under **My memory › Keys**, and kept in
+personal key labelled **GitHub Copilot · your computer's name**, listed under **My memory › Keys**, and kept in
 the plugin's data folder (or `~/.alexein/hooks/copilot/`), readable only by you. Instead, a key of your own can go in `ALEXEIN_API_KEY` (a personal
 key from **My memory › Keys**, **Read and write**; or `api_key` in `~/.config/alexein/hooks.json`).
 
